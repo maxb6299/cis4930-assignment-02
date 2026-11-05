@@ -1,7 +1,7 @@
 // src/handleData.js
 // Some code in this file was generated using AI
 
-export const API_URL = "http://127.0.0.1:5001/api/data";
+export const API_URL = import.meta.env.VITE_API_URL
 
 /**
  * Fetch records once on page load from the backend
