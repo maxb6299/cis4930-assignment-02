@@ -1,3 +1,5 @@
+/* Some code in this file was generated using AI */
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -167,7 +169,7 @@
 
   &::before,
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: -4.5px;
     border: 5px solid transparent;
@@ -181,4 +183,24 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+.tooltip {
+  position: absolute;
+  padding: 8px 12px;
+  background: rgba(20, 20, 20, 0.9);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.4;
+  pointer-events: none;
+  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.brush-view1 .selection {
+  fill: #028090;
+  fill-opacity: 0.25;
+  stroke: #028090;
+  stroke-width: 1px;
 }
